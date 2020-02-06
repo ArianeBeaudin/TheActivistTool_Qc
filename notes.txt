@@ -1,0 +1,9 @@
+TODO:
+
+-find how to sed with /r at the end and at the beginning
+-fixed the grep in script (circonscription -> email)
+-do the grepping thing on the whole Lettre-Depute
+-find how to send email with attachments
+-test sending mail
+-test inserting postalcode in gov excel
+-test getting result of the postalcode insert 

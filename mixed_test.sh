@@ -18,8 +18,9 @@ for i in ${array[@]}
 do
 	
 AFTER="${i/$'\r'/}"
-AFTER="'${AFTER}'"
+#AFTER="'${AFTER}'"
 echo "${AFTER}"
 pwd
-	grep -A 30 'Huntingdon' ListeDeputes.txt | grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+.[a-zA-Z0-9.-]+\b" | echo >> res.txt
+grep -A 30 "${AFTER}" ListeDeputes.txt | grep -E -o "\b[a-zA-Z0-9.-]+@[a-zA-Z0-9.-]+.[a-zA-Z0-9.-]+\b" >> bonne_version.txt
+
 done
