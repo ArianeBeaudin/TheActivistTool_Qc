@@ -1,10 +1,14 @@
 import pandas as pd
 import openpyxl
+import sys
+
+print(sys.argv[1])
+
 
 book = openpyxl.load_workbook('./CP_CIRC_MUN_MRC_RA.xlsm')
-sheet = book.get_sheet_by_name("Interrogation") 
+sheet = book["Interrogation"]
 cell = sheet.cell(row=3, column=2)
-cell.value ='J0J1J0'
+cell.value = sys.argv[1]
 book.save('test_openpyxl.xlsx')
 
 
