@@ -1,10 +1,9 @@
 
-
 OBJET : 	Demande de financement pour un comité d’environnement
 
-$1
+Laval
 
-À l’attention de INSERT2 ,
+À l’attention de Ariane,
  
 Je m’appelle INSERT3. Je suis membre du comité d’environnement affilié au Cégep du Vieux Montréal. Nous sommes grandement impliqué.e.s dans la communauté de notre Cégep. Nous investissons plusieurs heures par semaine pour sensibiliser, conscientiser et mobiliser les étudiant.e.s du CEGEP du Vieux-Montréal par rapport à la cause environnementale.
 
@@ -19,3 +18,4 @@ Je vous prie d’agréer, INSERT4 , mes salutations distinguées.
 INSERT5
 
 Envieuxronnement
+
