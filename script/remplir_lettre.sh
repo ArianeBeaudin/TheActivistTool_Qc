@@ -1,8 +1,17 @@
-echo -e 'NOM DU DEPUTE \nSON ADRESSE' > test_texte.txt
+cp lettre_modele.txt curr_lettre.txt
 
-sed -i "s/INSERT1/$1/g" lettre_modele.txt
 
-sed -i "s/INSERT2/$2/g" lettre_modele.txt
+sed -i "1i $1" curr_lettre.txt
+
+
+sed -i "s/INSERT1/$2/g" curr_lettre.txt
+
+sed -i "s/INSERT2/$3/g" curr_lettre.txt
+
+sed -i "s/INSERT3/$4/g" curr_lettre.txt
+sed -i "s/INSERT4/$5/g" curr_lettre.txt
+sed -i "s/INSERT5/$6/g" curr_lettre.txt
+sed -i "s/INSERT6/$7/g" curr_lettre.txt
 
 
 
