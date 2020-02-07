@@ -5,14 +5,14 @@ import sys
 print(sys.argv[1])
 
 
-book = openpyxl.load_workbook('./CP_CIRC_MUN_MRC_RA.xlsm')
+book = openpyxl.load_workbook('./references/CP_CIRC_MUN_MRC_RA.xlsm')
 sheet = book["Interrogation"]
 cell = sheet.cell(row=3, column=2)
 cell.value = sys.argv[1]
 book.save('test_openpyxl.xlsx')
 
 
-data =pd.read_excel('./CP_CIRC_MUN_MRC_RA.xlsm', sheet_name='Interrogation', index_col=None, usecols = "C", skiprows =5, nrows=1)
+data =pd.read_excel('./references/CP_CIRC_MUN_MRC_RA.xlsm', sheet_name='Interrogation', index_col=None, usecols = "C", skiprows =5, nrows=1)
 print(data)
 
 
